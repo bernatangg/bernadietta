@@ -1,0 +1,56 @@
+---
+import github from '../images/github.svg';
+import gitlab from '../images/gitlab.svg';
+import linkedin from '../images/linkedin.svg';
+import mail from '../images/mail.svg';
+
+interface Social {
+  title: string;
+  link: string;
+  icon: string;
+}
+
+const socials: Social[] = [
+  {
+    title: 'Github',
+    link: 'https://github.com/bernatangg',
+    icon: github,
+  },
+  {
+    title: 'Gitlab',
+    link: 'https://gitlab.com/djavasoegar07',
+    icon: gitlab,
+  },
+  {
+    title: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/bernadietta-anggie-3745a2135/',
+    icon: linkedin,
+  },
+  {
+    title: 'Mail',
+    link: 'mailto:dietta.anggie@gmail.com',
+    icon: mail,
+  },
+];
+
+---
+
+<footer class="my-4">
+  <div class="flex justify-center items-center">
+    <ul class="grid grid-flow-col gap-4 mb-4">
+      {socials.map(social => (
+        <li>
+          <a href={social.link} rel="noopener noreferrer" target="_blank">
+            <img src={social.icon} width={24} height={24} alt={`${social.title} Link`} />
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <p class="text-center">
+    {`© ${new Date().getFullYear()}. Made with ❤️ using `}
+    <a href="https://astro.build" class="text-primary-500" rel="noopener noreferrer" target="_blank">
+      Astro
+    </a>
+  </p>
+</footer>

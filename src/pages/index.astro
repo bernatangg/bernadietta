@@ -1,0 +1,417 @@
+---
+import { Icon } from 'astro-icon';
+import Layout from '../layouts/Layout.astro';
+
+const about = `Mobile Developer with 6+ years experience and a real passion for mobile application development. Readily embracing cutting-edge technology, have gained an in-depth understanding of the main mobile platforms. Having helped develop a series of commercially successful apps on Play Store and App Store.`;
+
+interface Experience {
+	role: string;
+	company: string;
+	from: string;
+	to: string;
+	responsibilities: string[];
+}
+
+const experiences: Experience[] = [
+	{
+		role: 'Freelance Mobile Developer',
+		company: 'Self-Employed',
+		from: 'Jun 2022',
+		to: 'Present',
+		responsibilities: [
+			'Providing custom mobile development solutions for businesses and individuals',
+			'Helping clients build scalable, high-performance mobile applications tailored to their needs',
+			'Developing Android & Flutter apps for various industries, including POS, inventory management, and business solutions',
+			'Optimizing performance and ensuring apps run smoothly across different devices',
+			'Enhancing user experience (UI/UX) through intuitive design and seamless functionality',
+			'Consume REST APIs from backend',
+		],
+	},
+	{
+		role: 'Senior Software Engineer',
+		company: 'Tagit Pte Ltd',
+		from: 'May 2021',
+		to: 'May 2022',
+		responsibilities: [
+			'Developed, managed, and delivered projects for banking applications such as mobile banking and credit card',
+			'Helping clients build scalable, high-performance mobile banking applications tailored to their needs',
+			'Trained, guided, and coordinated team for involvement in the projects and various other tasks of the organization',
+			'Optimizing performance and ensuring apps run smoothly across different devices',
+			'Communicated with internal and external business teams to gather all requirements and scope of the projects',
+		],
+	},
+	{
+		role: 'Senior Mobile Engineer',
+		company: 'PT Lasbon Teknologi Indonesia',
+		from: 'Jul 2020',
+		to: 'Sep 2021',
+		responsibilities: [
+			'Developed and maintained customer-facing Android app features',
+			'Designed an A/B testing framework for mobile UI experiments (client-side), enabling rapid hypothesis validation and driving an improvement in checkout conversion for tested variants.',
+			'Collaborated with cross-functional teams including product managers, designers, and backend engineers to deliver high-quality features on time',
+			'Optimized app performance and fixed bugs to enhance user experience',
+			'Collaborated with UI/UX designers, backend and IoT teams to implement an applicationused to track traffic violations using a camera on a car'
+		],
+	},
+	{
+		role: 'Senior Android Developer',
+		company: 'PT Cahaya Benteng Mas',
+		from: 'Apr 2019',
+		to: 'Jun 2020',
+		responsibilities: [
+			'Designing technology needs to develop Android Apps',
+			'Leading and mentoring junior developers in the Android team',
+			'Coordinating with project managers, designers, and backend developers to ensure timely delivery of projects',
+			'Ensuring the quality of the Android applications through code reviews and testing',
+			'Staying updated with the latest Android development trends and technologies to implement best practices',
+			'Designing UI/UX for Android Apps',
+			'Integration with RESTful API',
+			'Integration with Firebase',
+			'Integration with Dynamic AX (ERP) and Realta (HRIS)',
+			'Development methodology with SCRUM',
+			'Use revision control system (Git)',
+			'Develop, maintained, and upgrade warehouse management system',
+			'Develop, maintained, and upgrade human resource apps',
+			'Develop, maintained, and upgrade approval management apps',
+			'Develop cost of goods sold calculator (HPP)',
+		],
+	},
+	{
+		role: 'Android Developer',
+		company: 'PT Tiga Permata Logistik',
+		from: 'Apr 2018',
+		to: 'Apr 2019',
+		responsibilities: [
+			'Designing technology needs to develop Android Apps',
+			'Designing UI/UX for Android Apps',
+			'Integration with RESTful API',
+			'Integration with Firebase',
+			'Development methodology with SCRUM',
+			'Use revision control system (Git)',
+			'Develop and maintained warehouse management system',
+			'Develop and maintained tracking system for office transportation',
+		],
+	},
+	{
+		role: 'Android Developer',
+		company: 'PT Kerjaholic Inovasi Teknologi',
+		from: 'Jan 2018',
+		to: 'Mar 2018',
+		responsibilities: [
+			'Designing technology needs to develop Mobile Apps, Back-end, Front-end',
+			'Integration with RESTful API',
+			'Integration with Firebase and AWS',
+			'Development methodology with SCRUM',
+			'Use revision control system (Git)',
+		],
+	},
+	{
+		role: 'Junior Android Developer',
+		company: 'CV Techarea',
+		from: 'Aug 2016',
+		to: 'Dec 2017',
+		responsibilities: [
+			'Collaborated with designers and senior developers to improve app usability and performance',
+			'Assisted in developing an athlete nutrition tracking app',
+			'Participated in testing and debugging applications to ensure high quality and reliability',
+			'Gained experience in Agile methodologies and version control using Git',
+			'Gained experience in Android development',
+			'Integration with RESTful API',
+		],
+	}
+];
+
+interface Skill {
+	icon: string;
+	name: string;
+}
+
+interface SkillCategory {
+	name: string;
+	skills: Skill[];
+}
+
+const skillCategories: SkillCategory[] = [
+	{
+		name: 'Mobile Development',
+		skills: [
+			{
+				icon: 'logos:java',
+				name: 'Java',
+			},
+			{
+				icon: 'logos:kotlin',
+				name: 'Kotlin',
+			},
+			{
+				icon: 'logos:flutter',
+				name: 'Flutter',
+			},
+			{
+				icon: 'logos:kotlin',
+				name: 'Koltin Multiplatform',
+			},
+		],
+	},
+	{
+		name: 'Architecture & Code Quality',
+		skills: [
+			{
+				icon: 'logos:android',
+				name: 'Clean Architecture',
+			},
+			{
+				icon: 'logos:android',
+				name: 'MVVM',
+			},
+			{
+				icon: 'logos:android',
+				name: 'MVP',
+			},
+			{
+				icon: 'logos:flutter',
+				name: 'bloc',
+			},
+			{
+				icon: 'logos:flutter',
+				name: 'riverpod',
+			},
+			{
+				icon: 'logos:flutter',
+				name: 'getX',
+			},
+			{
+				icon: 'logos:android',
+				name: 'Dagger-Hilt',
+			}
+			
+		],
+	},
+	{
+		name: 'UI & UX',
+		skills: [
+			{
+				icon: 'logos:android',
+				name: 'Material Design',
+			},
+			{
+				icon: 'logos:flutter',
+				name: 'Responsive Design',
+			},
+			{
+				icon: 'logos:android',
+				name: 'Jetpack Compose',
+			}
+		],
+	},
+	{
+		name: 'Network & Data',
+		skills: [
+			{
+				icon: 'logos:android',
+				name: 'JWT Token',
+			},
+			{
+				icon: 'logos:android',
+				name: 'retrofit',
+			},
+			{
+				icon: 'logos:android',
+				name: 'ROOM',
+			},
+			{
+				icon: 'logos:android',
+				name: 'LiveData',
+			},
+			{
+				icon: 'logos:android',
+				name: 'ViewModel',
+			},
+			{
+				icon: 'logos:android',
+				name: 'Shared Preferences',
+			}
+		],
+	},
+	{
+		name: 'Testing & Quality Assurance',
+		skills: [
+			{
+				icon: 'logos:android',
+				name: 'Unit Testing',
+			},
+			{
+				icon: 'logos:android',
+				name: 'Espresso',
+			},
+			{
+				icon: 'appium',
+				name: 'Appium',
+			}
+		],
+	},
+	{
+		name: 'CI/CD & Release Management',
+		skills: [
+			{
+				icon: 'logos:github-actions',
+				name: 'Github Actions',
+			},
+			{
+				icon: 'logos:fastlane',
+				name: 'Fastlane',
+			},
+			{
+				icon: 'logos:android',
+				name: 'Play Store',
+			},
+			{
+				icon: 'logos:apple',
+				name: 'App Store',
+			}
+		],
+	},
+	{
+		name: 'Backend',
+		skills: [
+			{
+				icon: 'logos:php',
+				name: 'PHP',
+			},
+			{
+				icon: 'logos:lumen',
+				name: 'Lumen',
+			},
+			{
+				icon: 'logos:laravel',
+				name: 'Laravel',
+			},
+			{
+				icon: 'codeigniter',
+				name: 'CodeIgniter',
+			},
+			{
+				icon: 'logos:nodejs-icon',
+				name: 'NodeJs',
+			},
+			{
+				icon: 'logos:express',
+				name: 'ExpressJs',
+			},
+			{
+				icon: 'logos:mysql-icon',
+				name: 'MySQL',
+			},
+			{
+				icon: 'logos:mongodb',
+				name: 'MongoDB',
+			},
+			{
+				icon: 'logos:postgresql',
+				name: 'PostgreSQL',
+			},
+			{
+				icon: 'dashicons:rest-api',
+				name: 'RESTful API',
+			},
+			{
+				icon: 'logos:graphql',
+				name: 'GraphQL',
+			},
+		],
+	},
+	{
+		name: 'Others',
+		skills: [
+			{
+				icon: 'logos:git-icon',
+				name: 'Git',
+			},
+			{
+				icon: 'logos:google-cloud',
+				name: 'Google Cloud',
+			},
+			{
+				icon: 'logos:google-analytics',
+				name: 'Google Analytics',
+			},
+			{
+				icon: 'logos:firebase',
+				name: 'Firebase',
+			}
+		],
+	},
+];
+
+---
+
+<Layout
+	title="Bernadietta Anggie - Mobile Developer"
+	description="Mobile Engineer with 6+ years experience and a real passion for mobile application development. Readily embracing cutting-edge technology, have gained an in-depth understanding of the main mobile platforms. Having helped develop a series of commercially successful apps on Play Store and App Store."
+>
+	<main class="pt-10">
+		<section class="mb-10 flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between">
+			<div class="mt-8 sm:mt-0">
+				<p>Hi, my name is</p>
+				<h1 class="font-bold text-6xl text-primary-500 my-4">
+					Bernadietta Anggie
+				</h1>
+				<p>{about}</p>
+			</div>
+			<div class="flex-shrink-0">
+				<img
+					src="/bernatangg.jpg"
+					alt="Image of the Author"
+					width={160}
+					height={160}
+					class="rounded-full overflow-hidden"
+					loading="eager"
+					decoding="async"
+				/>
+			</div>
+		</section>
+		<section class="flex flex-col lg:flex-row">
+			<h2 class="w-52 font-semibold text-xl">EXPERIENCE</h2>
+			<div class="w-full">
+				{experiences.map(experience => (
+					<div class="mb-10">
+						<div class="flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-primary-500">{experience.role}</h3>
+							<p class="text-sm whitespace-nowrap text-gray-600">
+								{`${experience.from} - ${experience.to}`}
+							</p>
+						</div>
+						<p>{experience.company}</p>
+						<ul class="list-disc ml-4">
+							{experience.responsibilities.map(responsibility => (
+								<li class="text-sm list-item">{responsibility}</li>
+							))}
+						</ul>
+					</div>
+				))}
+			</div>
+		</section>
+		<section class="flex flex-col lg:flex-row">
+			<h2 class="w-52 font-semibold text-xl">SKILLS</h2>
+			<div class="w-full">
+				<ul>
+					{skillCategories.map(skillCategory => (
+						<li class="mb-4">
+							<p class="text-primary-500 font-semibold text-lg mb-2">{skillCategory.name}</p>
+							<ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+								{skillCategory.skills.map(skill => (
+									<li class="flex items-center gap-4">
+										<span class="w-11 h-11 flex items-center justify-center shadow-lg shadow-zinc-800/5 rounded-full ring-1 ring-zinc-900/5 bg-zinc-100 ">
+											<Icon name={skill.icon} class="w-6 h-6" />
+										</span>
+										<p class="text-gray-600">{skill.name}</p>
+									</li>
+								))}
+							</ul>
+						</li>
+					))}
+				</ul>
+			</div>
+		</section>
+	</main>
+</Layout>

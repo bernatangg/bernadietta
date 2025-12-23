@@ -1,0 +1,289 @@
+[
+  {
+    "title": "CBM Mobile",
+    "url": "https://play.google.com/store/apps/details?id=com.itcbm.cbmmobile",
+    "images": [
+      "/images/projects/cbm-mobile/cbm-mobile.png"
+    ],
+    "description": "CBM Mobile is an app for PT Cahaya Benteng Mas staff and management to support daily operational tasks",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "NodeJs",
+        "icon": "logos:nodejs-icon"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "SQL Server",
+        "icon": "sql-server"
+      }
+    ]
+  },
+  {
+    "title": "CBM Warehouse",
+    "images": [
+      "/images/projects/cbm-warehouse/cbm-warehouse.png"
+    ],
+    "description": "CBM Warehouse helps staff manage inventory, stock movement, and daily warehouse operations efficiently.",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "NodeJs",
+        "icon": "logos:nodejs-icon"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "SQL Server",
+        "icon": "sql-server"
+      }
+    ]
+  },
+  {
+    "title": "Kiriman Online",
+    "url": "https://play.google.com/store/apps/details?id=com.project.kirimanonline&hl=en ",
+    "images": [
+      "/images/projects/kiriman-online/kiriman-online.png"
+    ],
+    "description": "Kiriman Online is a money transfer app between Indonesia and Taiwan. It enables fast, secure, and convenient cross-border money transfers.",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Kotlin",
+        "icon": "logos:kotlin"
+      },
+      {
+        "name": "Laravel",
+        "icon": "logos:laravel"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "MySQL",
+        "icon": "logos:mysql-icon"
+      }
+    ]
+  },
+  {
+    "title": "Logo Quiz",
+    "url": "https://play.google.com/store/apps/details?id=com.rnrstudio.logoquiznew&hl=en",
+    "images": [
+      "/images/projects/logo-quiz/logo-quiz.png"
+    ],
+    "description": "Logo Quiz is a fun trivia game that challenges players to guess brand logos. Test your knowledge with hundreds of logos from various categories",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Kotlin",
+        "icon": "logos:kotlin"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      }
+    ]
+  },
+  {
+    "title": "Mukmin App",
+    "'url": "https://play.google.com/store/apps/details?id=id.mukmin.muslimapp&hl=en ",
+    "images": [
+      "/images/projects/mukmin-app/mukmin-app.png"
+    ],
+    "description": "Mukmin App is a daily Islamic companion designed for Muslims in Indonesia. It provides prayer times, Quran access, and daily worship reminders",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Kotlin",
+        "icon": "logos:kotlin"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "Fastlane",
+        "icon": "logos:fastlane"
+      }
+    ]
+  },
+  {
+    "title": "Nutri Atlet",
+    "url": "https://techarea.co.id/karya/nutri-atlet/",
+    "images": [
+      "/images/projects/nutri-atlet/nutri-atlet.png"
+    ],
+    "description": "Nutri Atlet helps track athletes’ daily nutrition and calorie needs. Coaches can easily monitor intake and body metrics",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      }
+    ]
+  },
+  {
+    "title": "POP Center POLDA JATIM",
+    "url": "https://play.google.com/store/apps/details?id=com.kampungtangguhsemeru.jatim&hl=en ",
+    "images": [
+      "/images/projects/pop-center-polda/pop-center-polda.png"
+    ],
+    "description": "POP Center Polda Jatim is an application used to track COVID-19 cases in East Java. It helps monitor infected individuals, contact tracing, and isolation status.",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "Laravel",
+        "icon": "logos:laravel"
+      },
+      {
+        "name": "Lumen",
+        "icon": "logos:lumen"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "MySQL",
+        "icon": "logos:mysql-icon"
+      }
+    ]
+  },
+  {
+    "title": "Sewa Gudang",
+    "url": "https://play.google.com/store/apps/details?id=com.tigapermata.sewagudangapps&hl=en",
+    "images": [
+      "/images/projects/sewa-gudang/sewa-gudang.png"
+    ],
+    "description": "Sewa Gudang is a warehouse management application for tracking inbound and outbound goods. It helps manage inventory and daily warehouse operations efficiently.",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "MySQL",
+        "icon": "logos:mysql-icon"
+      },
+      {
+        "name": "CodeIgniter",
+        "icon": "codeigniter"
+      }
+    ]
+  },
+  {
+    "title": "SKRIP",
+    "url": "https://play.google.com/store/apps/details?id=com.lasbon.skripjatim&hl=en",
+    "images": [
+      "/images/projects/skrip/skrip.png"
+    ],
+    "description": "SKRIP helps users monitor and report driving and traffic activities digitally. It provides access to vehicle, license, violation, and accident information in one app",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "iOS",
+        "icon": "logos:apple"
+      },
+      {
+        "name": "Flutter",
+        "icon": "logos:flutter"
+      },
+      {
+        "name": "Laravel",
+        "icon": "logos:laravel"
+      },
+      {
+        "name": "Lumen",
+        "icon": "logos:lumen"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      },
+      {
+        "name": "MySQL",
+        "icon": "logos:mysql-icon"
+      }
+    ]
+  },
+  {
+    "title": "Tani Pintar",
+    "url": "https://play.google.com/store/apps/details?id=com.smartrni.tanipintar&hl=en",
+    "images": [
+      "/images/projects/tani-pintar/tani-pintar.png"
+    ],
+    "description": "Tani Pintar is a smart agriculture app designed to help farmers manage and monitor their farming activities. It provides tools to track and optimize crop care and field data for better productivity.",
+    "techs": [
+      {
+        "name": "Android",
+        "icon": "logos:android"
+      },
+      {
+        "name": "iOS",
+        "icon": "logos:apple"
+      },
+      {
+        "name": "Flutter",
+        "icon": "logos:flutter"
+      },
+      {
+        "name": "SQLite",
+        "icon": "logos:sqlite"
+      }
+    ]
+  }
+]
